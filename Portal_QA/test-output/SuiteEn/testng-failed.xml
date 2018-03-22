@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteEn]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.portalQA_Ja.Testcases.Report_Download">
+        <methods>
+          <include name="verify_Report_AppDown"/>
+        </methods>
+      </class> <!-- com.portalQA_Ja.Testcases.Report_Download -->
+      <class name="com.portalQA_Ja.Testcases.Create_Refund">
+        <methods>
+          <include name="Verify_CreateRefund"/>
+        </methods>
+      </class> <!-- com.portalQA_Ja.Testcases.Create_Refund -->
+      <class name="com.portalQA_Ja.Testcases.Admin_ReportUsage">
+        <methods>
+          <include name="verify_Admin_Usage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.portalQA_Ja.Testcases.Admin_ReportUsage -->
+      <class name="com.portalQA_Ja.Testcases.Report_IAPorders">
+        <methods>
+          <include name="setup"/>
+          <include name="verify_Report_IAPorder"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.portalQA_Ja.Testcases.Report_IAPorders -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SuiteEn] -->
